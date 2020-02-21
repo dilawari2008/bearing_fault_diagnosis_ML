@@ -1,0 +1,10 @@
+skew = skewness(de);
+kurt = kurtosis(de);
+std_dev = std(de);
+rmsq = rms(de);
+rang = range(de);
+shannon = wentropy(de,'shannon');
+log_energy = wentropy(de,'log energy');
+threshold = wentropy(de,'threshold',0.1);
+sure = wentropy(de,'sure',3);
+norm = wentropy(de,'norm',1.1);
